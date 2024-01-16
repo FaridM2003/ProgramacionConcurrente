@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <algorithm>
+#include <iostream>
+using namespace std;
+int main() {
+ int a,r;
+ scanf("%d",&a);
+ int b[a];
+ for (int i=0;i<a;i++){
+    scanf("%d",&b[i]);
+ }
+ sort(b,b+a);
+  for (int i=0;i<a;i++){  
+    printf("%d\n",b[i]);
+ }
+}

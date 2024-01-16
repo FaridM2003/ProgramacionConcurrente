@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+#define MAX 123123
+using namespace std;
+int main() {
+int a,b=0;
+cin>>a;
+for (int i=0;i<=a;i++){
+b=b+pow(2,i);
+}
+cout<<b;
+}
